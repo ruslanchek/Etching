@@ -1,3 +1,25 @@
-@include font-face("PFAgoraSlabPro-Bold", font-files("fonts/pfagoraslabpro-bold-webfont.woff", "fonts/pfagoraslabpro-bold-webfont.ttf", "fonts/pfagoraslabpro-bold-webfont.svg"), "fonts/pfagoraslabpro-bold-webfont.eot");
-@include font-face("PFAgoraSlabPro-Reg", font-files("fonts/pfagoraslabpro-reg-webfont.woff", "fonts/pfagoraslabpro-reg-webfont.ttf", "fonts/pfagoraslabpro-reg-webfont.svg"), "fonts/pfagoraslabpro-reg-webfont.eot");
+@font-face {
+    font-family: 'pf_agora_slab_probold';
+    src: url('../fonts/pfagoraslabpro-bold-webfont.eot');
+    src: url('../fonts/pfagoraslabpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfagoraslabpro-bold-webfont.woff2') format('woff2'),
+    url('../fonts/pfagoraslabpro-bold-webfont.woff') format('woff'),
+    url('../fonts/pfagoraslabpro-bold-webfont.ttf') format('truetype'),
+    url('../fonts/pfagoraslabpro-bold-webfont.svg#pf_agora_slab_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_agora_slab_proregular';
+    src: url('../fonts/pfagoraslabpro-reg-webfont.eot');
+    src: url('../fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'),
+    url('../fonts/pfagoraslabpro-reg-webfont.woff') format('woff'),
+    url('../fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype'),
+    url('../fonts/pfagoraslabpro-reg-webfont.svg#pf_agora_slab_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin,cyrillic);

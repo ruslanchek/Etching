@@ -29,8 +29,72 @@
 		&.editor:before
 			background: url(../images/bullets/editor.svg)
 
-
-
 .categories
+	$side-width: 150px
+
 	background: #dad7d0
 	padding: 40px 0
+
+	.items
+		+clearfix
+		margin-left: -20px
+
+		.cell
+			width: 16.66666%
+			float: left
+			padding-left: 20px
+			box-sizing: border-box
+			margin-bottom: 20px
+
+			&.main-pic
+				width: 33.33333%
+				height: $side-width * 2 + 20
+
+				.item
+					height: $side-width * 2 + 20
+
+					.image
+						width: $side-width * 2 + 20
+						height: $side-width * 2 + 20
+
+		.item
+			display: block
+			position: relative
+			font-size: 15px
+
+			.title
+				background: rgba(0, 0, 0, .8)
+				height: 30px
+				line-height: 30px
+				color: #fff
+				text-align: center
+				overflow: hidden
+				text-overflow: ellipsis
+				width: 100%
+				position: absolute
+				bottom: 0
+				left: 0
+				transition: color .4s
+
+			.image
+				overflow: hidden
+				width: $side-width
+				height: $side-width
+				display: block
+
+				img
+					width: 100%
+					display: block
+					transition: .6s
+
+			&:hover
+				.title
+					color: #ccc
+
+				.image
+					img
+						transform: scale(1.2)
+
+
+
+
