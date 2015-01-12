@@ -1,0 +1,39 @@
+.product-card
+	background: #fff
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+	transition: .3s
+	display: block
+
+	$side-width: 235px
+
+	&:hover
+		box-shadow: 0 2px 8px rgba(0, 0, 0, .2)
+
+	.params
+		padding: 13px 15px 10px
+
+		.title
+			font-family: 'Conv_PFAgoraSlabPro-Reg'
+			min-height: 2.8em
+			line-height: 1.2em
+			font-size: 18px
+
+		.price
+			font-family: 'Conv_PFAgoraSlabPro-Bold'
+			color: $color-red
+
+	.image
+		width: $side-width
+		height: $side-width
+		display: table-cell
+		vertical-align: middle
+		background: #FBFBFB
+		text-align: center
+		overflow: hidden
+		line-height: 0
+
+		img
+			max-width: 100%
+			max-height: $side-width
+			display: inline-block
+			margin: 0

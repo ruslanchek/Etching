@@ -35,6 +35,9 @@
 	background: #dad7d0
 	padding: 45px 0 35px
 
+	.hero-title
+		color: #333333
+
 	.items
 		+clearfix
 		margin-left: -20px
@@ -65,7 +68,7 @@
 			.title
 				background: rgba(0, 0, 0, .8)
 				height: 30px
-				line-height: 30px
+				line-height: 33px
 				color: #fff
 				text-align: center
 				overflow: hidden
@@ -75,6 +78,7 @@
 				bottom: 0
 				left: 0
 				transition: color .5s
+				font-family: 'Conv_PFAgoraSlabPro-Reg'
 
 			.image
 				overflow: hidden
@@ -114,7 +118,7 @@
 			right: -17px
 			top: 64px
 
-	h2
+	.hero-title
 		margin-bottom: 25px
 
 	.item
@@ -148,14 +152,20 @@
 .many-pictures
 	padding: 45px 0
 	height: 500px
-	background: url(../images/bg/many-pics.png) no-repeat center 45px
+	background: #F2F2F2 url(../images/bg/many-pics.png) no-repeat center 45px
 	position: relative
 
-	h2
+	.hero-title
 		position: absolute
 		width: 430px
-		color: $color-reddish
+		color: $color-red
 		left: 50%
 		top: 240px
 		margin-left: -215px
 		line-height: 1.1em
+
+
+.promo-popular
+	padding: 45px 0
+	background: #F2F2F2
+	position: relative
