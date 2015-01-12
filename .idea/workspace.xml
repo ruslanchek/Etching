@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/promo-instruction/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/promo-instruction/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/promo-instruction/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Bold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Reg.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Reg.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Reg.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Reg.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PFAgoraSlabPro-Reg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons/arrow-right-gray.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/footer.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/header.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/promo-bullets.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/promo-categories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/promo-categories.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/promo-instruction-intro.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/slider-main.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/slider-sub.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-bold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-bold-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-reg-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-reg-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-reg-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-reg-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pfagoraslabpro-reg-webfont.woff2" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg/many-pics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/many-pictures.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/blocks.sass" afterPath="$PROJECT_DIR$/sass/blocks.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/commons.sass" afterPath="$PROJECT_DIR$/sass/commons.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/fonts.scss" afterPath="$PROJECT_DIR$/sass/fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/header.sass" afterPath="$PROJECT_DIR$/sass/header.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
@@ -70,7 +37,27 @@
         <entry file="file://$PROJECT_DIR$/partials/promo-instruction-intro.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="many-pictures.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/many-pictures.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -79,8 +66,8 @@
       <file leaf-file-name="blocks.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/blocks.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70394737" vertical-offset="1019" max-vertical-offset="2250">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39555922" vertical-offset="1274" max-vertical-offset="2490">
+              <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -113,9 +100,10 @@
         <option value="$PROJECT_DIR$/partials/promo-bullets.jade" />
         <option value="$PROJECT_DIR$/partials/slider-main.jade" />
         <option value="$PROJECT_DIR$/partials/slider-sub.jade" />
-        <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/partials/header.jade" />
         <option value="$PROJECT_DIR$/partials/promo-instruction-intro.jade" />
+        <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/partials/many-pictures.jade" />
         <option value="$PROJECT_DIR$/sass/blocks.sass" />
       </list>
     </option>
@@ -251,6 +239,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -332,7 +338,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421070352424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="w">
+      <created>1421074843651</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1421074843651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -521,14 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/header.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -556,15 +560,31 @@
     <entry file="file://$PROJECT_DIR$/partials/promo-instruction-intro.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/many-pictures.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/blocks.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70394737" vertical-offset="1019" max-vertical-offset="2250">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39555922" vertical-offset="1274" max-vertical-offset="2490">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
           <folding />
         </state>
       </provider>

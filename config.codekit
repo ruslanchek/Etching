@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bg\/many-pics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38925,
+		"inputAbbreviatedPath": "\/images\/bg\/many-pics.png",
+		"outputAbbreviatedPath": "\/images\/bg\/many-pics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/promo-instruction\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -148,6 +159,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/header.jade",
 		"outputAbbreviatedPath": "\/partials\/header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/partials\/many-pictures.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/many-pictures.jade",
+		"outputAbbreviatedPath": "\/partials\/many-pictures.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
