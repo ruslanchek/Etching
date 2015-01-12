@@ -1,40 +1,36 @@
 .bullets
 	padding: 45px 0
 
-	ul
-		+clearfix
+	.item
+		position: relative
+		min-height: 70px
+		font-size: $font-size-small
+		line-height: 1.35em
+		padding: 8px 0 0 82px
 
-		li
-			position: relative
-			min-height: 70px
-			padding: 10px 15px 0 82px
-			box-sizing: border-box
-			float: left
-			width: 25%
-			font-size: $font-size-small
-			line-height: 1.35em
+		&:before
+			position: absolute
+			left: 0
+			top: 0
+			width: 70px
+			height: 70px
+			display: block
+			content: ''
 
-			&:before
-				position: absolute
-				left: 0
-				top: 0
-				width: 70px
-				height: 70px
-				display: block
-				content: ''
+		&.discount:before
+			background: url(../images/bullets/discount.svg)
 
-			&.discount
-				&:before
-					background: url(../images/bullets/discount.svg)
+		&.delivery:before
+			background: url(../images/bullets/delivery.svg)
 
-			&.delivery
-				&:before
-					background: url(../images/bullets/delivery.svg)
+		&.target:before
+			background: url(../images/bullets/target.svg)
 
-			&.target
-				&:before
-					background: url(../images/bullets/target.svg)
+		&.editor:before
+			background: url(../images/bullets/editor.svg)
 
-			&.editor
-				&:before
-					background: url(../images/bullets/editor.svg)
+
+
+.categories
+	background: #dad7d0
+	padding: 40px 0

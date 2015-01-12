@@ -20,9 +20,9 @@ html
 							a(href="#") Магазин
 							a.active(href="#") Создать дизайн
 							a(href="#") Начать продавать
-							a(href="#") x
-							a(href="#") y
-							a(href="#") z
+							a.icon.search(href="#", title="Поиск")
+							a.icon.cart(href="#", title="Корзина")
+							a.icon.user(href="#", title="Войти/зарегистрироваться")
 
 			main.main
 				.slider-main
@@ -30,15 +30,23 @@ html
 
 				.bullets
 					.limiter
-						ul
-							li.delivery Доставка по Москве завтра. Самовывоз уже сегодня :)
-							li.target Высокоточная лазерная гравировка. Не стирается.
-							li.discount Гравировка от 1 шт. Большие скидки &mdash; большим клиентам.
-							li.editor Удобный онлайн-редактор. Заработай на своем дизайне.
+						.grid-row
+							.col-3
+								.item.delivery Доставка по Москве завтра. Самовывоз уже сегодня :)
+							.col-3
+								.item.target Высокоточная лазерная гравировка. Не стирается.
+							.col-3
+								.item.discount Гравировка от 1 шт. Большие скидки &mdash; большим клиентам.
+							.col-3
+								.item.editor Удобный онлайн-редактор. Заработай на своем дизайне.
 
 				.categories
 					.limiter
-						h2 Товары по любому поводу
+						h2.hero-title.text-center Товары по любому поводу
+
+						.items
+							a(href="#").item
+								.title Подарки
 
 			.push
 

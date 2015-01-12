@@ -40,18 +40,59 @@
                 display: inline-block
                 padding: 0 20px
                 border-left: 1px solid #ededed
+                box-sizing: border-box
+
+                &:last-of-type
+                    border-right: 1px solid #ededed
 
                 &.active
                     position: relative
 
                     &:after
                         position: absolute
-                        background: red
+                        background: $color-red
                         height: 5px
                         width: 100%
                         bottom: 0
                         left: 0
                         content: ''
+
+                &.icon
+                    position: relative
+                    width: 68px
+
+                    &:before
+                        content: '\00a0'
+
+                    &:after
+                        display: block
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        content: ''
+                        background-repeat: no-repeat
+
+                    &.cart:after
+                        background-image: url(../images/icons/cart.svg)
+                        width: 28px
+                        height: 23px
+                        margin: -11px 0 0 -16px
+
+                    &.user:after
+                        background-image: url(../images/icons/user.svg)
+                        width: 24px
+                        height: 25px
+                        margin: -12px 0 0 -14px
+
+                    &.search:after
+                        background-image: url(../images/icons/search.svg)
+                        width: 20px
+                        height: 20px
+                        margin: -10px 0 0 -11px
+
+                    &:hover
+                        &:after
+                            opacity: 0.8
 
     .logo
         font-family: 'PFAgoraSlabPro-Bold'

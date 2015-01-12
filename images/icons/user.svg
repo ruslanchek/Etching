@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Imported Layers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,8 L24,8 L24,0 L0,0 L0,8 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Imported-Layers" sketch:type="MSLayerGroup">
+            <path d="M12.93849,0.64888 C15.96671,1.88339 14.7987,1.11305 16.64419,2.62038 C19.44826,5.42443 19.44826,10.82075 16.64421,13.62471 C13.84024,16.428429 9.294074,16.428429 6.490105,13.62471 C3.686136,10.82075 3.686136,5.42443 6.490105,2.62046 C8.85477,0.45843 9.967328,0.64888 12.93849,0.64888 L12.93849,0.64888 Z M12.70989,1.82358 C10.34714,1.57715 9.125095,2.0053 7.336192,3.46658 C4.999584,5.80309 4.999584,10.44184 7.336192,12.77848 C9.672921,15.115025 13.46139,15.115025 15.79799,12.77848 C18.13473,10.44184 18.13473,5.80309 15.79799,3.46658 C14.26015,2.21038 15.23348,2.85238 12.70989,1.82358 L12.70989,1.82358 Z" id="Fill-1" fill-opacity="0.251" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <g id="Group-5" transform="translate(0.000000, 17.000000)">
+                <mask id="mask-2" sketch:name="Clip 4" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M22.54247,8 C22.66414,6.315063 22.10747,4.590513 20.82064,3.302452 C18.46928,0.948265 5.290992,0.948265 2.939637,3.302452 C1.652808,4.590513 1.096136,6.315063 1.217801,8 L0.01358491,8 C-0.1063277,6.006027 0.5661677,3.973425 2.088065,2.449896 C4.909725,-0.374981 18.85055,-0.374981 21.67212,2.449896 C23.19411,3.973425 23.8666,6.006027 23.74669,8 L22.54247,8 L22.54247,8 Z" id="Fill-3" fill-opacity="0.251" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
