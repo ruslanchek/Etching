@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vars.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/blocks.sass" afterPath="$PROJECT_DIR$/sass/blocks.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/commons.sass" afterPath="$PROJECT_DIR$/sass/commons.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/fonts.scss" afterPath="$PROJECT_DIR$/sass/fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/head.jade" afterPath="$PROJECT_DIR$/partials/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/header.sass" afterPath="$PROJECT_DIR$/sass/header.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.sass" afterPath="$PROJECT_DIR$/sass/screen.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shop.iws" />
@@ -73,8 +61,8 @@
       <file leaf-file-name="blocks.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/blocks.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6299342" vertical-offset="374" max-vertical-offset="1590">
-              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.70394737" vertical-offset="374" max-vertical-offset="1590">
+              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -318,7 +306,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421065021779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="w">
+      <created>1421069891849</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1421069891849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/blocks.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6299342" vertical-offset="374" max-vertical-offset="1590">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.70394737" vertical-offset="374" max-vertical-offset="1590">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
           <folding />
         </state>
       </provider>
