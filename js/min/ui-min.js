@@ -1,0 +1,1 @@
+$(function(){$(".select").select2({placeholder:"Select a State"}),$(document).on("click.selector",function(e){0===$(e.target).closest(".selector").length&&$(".selector").removeClass("active")}),$(".selector").on("click",function(){$(this).toggleClass("active")})});

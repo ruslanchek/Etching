@@ -1,0 +1,40 @@
+.bullets
+	padding: 45px 0
+
+	ul
+		+clearfix
+
+		li
+			position: relative
+			min-height: 70px
+			padding: 10px 15px 0 82px
+			box-sizing: border-box
+			float: left
+			width: 25%
+			font-size: $font-size-small
+			line-height: 1.35em
+
+			&:before
+				position: absolute
+				left: 0
+				top: 0
+				width: 70px
+				height: 70px
+				display: block
+				content: ''
+
+			&.discount
+				&:before
+					background: url(../images/bullets/discount.svg)
+
+			&.delivery
+				&:before
+					background: url(../images/bullets/delivery.svg)
+
+			&.target
+				&:before
+					background: url(../images/bullets/target.svg)
+
+			&.editor
+				&:before
+					background: url(../images/bullets/editor.svg)
