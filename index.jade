@@ -3,140 +3,15 @@ html
 	include partials/head
 	body
 		.overall
-			header.header
-				.top
-					.limiter
-						nav.top
-							a(href="#") Доставка и оплата
-							a(href="#") Гарантия качества
-
-						.phone +7 (495) 795-4-197
-
-				section.section
-					.limiter
-						a.logo(href="/") Гравировка подарков
-
-						nav.main
-							a(href="#") Магазин
-							a.active(href="#") Создать дизайн
-							a(href="#") Начать продавать
-							a.icon.search(href="#", title="Поиск")
-							a.icon.cart(href="#", title="Корзина")
-							a.icon.user(href="#", title="Войти/зарегистрироваться")
+			include partials/header
 
 			main.main
-				.slider-main
-				.slider-sub
-
-				.bullets
-					.limiter
-						.grid-row
-							.col-3
-								.item.delivery Доставка по Москве завтра. Самовывоз уже сегодня :)
-							.col-3
-								.item.target Высокоточная лазерная гравировка. Не стирается.
-							.col-3
-								.item.discount Гравировка от 1 шт. Большие скидки &mdash; большим клиентам.
-							.col-3
-								.item.editor Удобный онлайн-редактор. Заработай на своем дизайне.
-
-				.categories
-					.limiter
-						h2.hero-title.text-center Товары по любому поводу
-
-						.items
-							.cell.main-pic
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?11")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?12")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?13")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?14")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?15")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?16")
-									span.title Подарки
-
-							.cell
-								a(href="#").item.main
-									span.image
-										img(src="http://lorempixel.com/400/400/?17")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?18")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?19")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?20")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?21")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?22")
-									span.title Подарки
-
-							.cell
-								a(href="#").item.main
-									span.image
-										img(src="http://lorempixel.com/400/400/?23")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?24")
-									span.title Подарки
-
-							.cell
-								a(href="#").item
-									span.image
-										img(src="http://lorempixel.com/400/400/?25")
-									span.title Подарки
-
-
+				include partials/slider-main
+				include partials/slider-sub
+				include partials/promo-bullets
+				include partials/promo-categories
+				include partials/promo-instruction-intro
 
 			.push
 
-		footer.footer
+		include partials/footer

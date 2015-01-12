@@ -33,7 +33,7 @@
 	$side-width: 150px
 
 	background: #dad7d0
-	padding: 40px 0
+	padding: 45px 0
 
 	.items
 		+clearfix
@@ -96,5 +96,50 @@
 						transform: scale(1.2)
 
 
+.instruction-intro
+	background: #333333
+	padding: 45px 0
+	color: #fff
 
+	.after-arrow
+		position: relative
 
+		&:after
+			content: ''
+			width: 13px
+			height: 22px
+			display: block
+			position: absolute
+			background: url(../images/icons/arrow-right-gray.svg)
+			right: -17px
+			top: 64px
+
+	h2
+		margin-bottom: 25px
+
+	.item
+		text-align: center
+
+		mark
+			background: none
+			color: $color-red
+
+		&:before
+			width: 150px
+			height: 150px
+			display: block
+			content: ''
+			margin: 0 auto
+
+		&.one
+			@extend .after-arrow
+			&:before
+				background-image: url(../images/promo-instruction/1.png)
+
+		&.two
+			@extend .after-arrow
+			&:before
+				background-image: url(../images/promo-instruction/2.png)
+
+		&.three:before
+			background-image: url(../images/promo-instruction/3.png)
