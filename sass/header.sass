@@ -41,21 +41,32 @@
                 padding: 0 20px
                 border-left: 1px solid #ededed
                 box-sizing: border-box
+                position: relative
+                color: #000
+                transition: opacity .2s
 
                 &:last-of-type
                     border-right: 1px solid #ededed
 
-                &.active
-                    position: relative
+                &:after
+                    position: absolute
+                    background: transparent
+                    height: 5px
+                    width: 100%
+                    bottom: 0
+                    left: 0
+                    content: ''
+                    transition: background .2s
+
+                &:hover
+                    opacity: .8
 
                     &:after
-                        position: absolute
+                        background: #cdcdcd
+
+                &.active
+                    &:after
                         background: $color-red
-                        height: 5px
-                        width: 100%
-                        bottom: 0
-                        left: 0
-                        content: ''
 
                 &.icon
                     position: relative
@@ -64,7 +75,7 @@
                     &:before
                         content: '\00a0'
 
-                    &:after
+                    i
                         display: block
                         position: absolute
                         top: 50%
@@ -72,27 +83,23 @@
                         content: ''
                         background-repeat: no-repeat
 
-                    &.cart:after
-                        background-image: url(../images/icons/cart.svg)
-                        width: 28px
-                        height: 23px
-                        margin: -11px 0 0 -16px
+                        &.cart
+                            background-image: url(../images/icons/cart.svg)
+                            width: 28px
+                            height: 23px
+                            margin: -11px 0 0 -16px
 
-                    &.user:after
-                        background-image: url(../images/icons/user.svg)
-                        width: 24px
-                        height: 25px
-                        margin: -12px 0 0 -14px
+                        &.user
+                            background-image: url(../images/icons/user.svg)
+                            width: 24px
+                            height: 25px
+                            margin: -12px 0 0 -12px
 
-                    &.search:after
-                        background-image: url(../images/icons/search.svg)
-                        width: 20px
-                        height: 20px
-                        margin: -10px 0 0 -11px
-
-                    &:hover
-                        &:after
-                            opacity: 0.8
+                        &.search
+                            background-image: url(../images/icons/search.svg)
+                            width: 20px
+                            height: 20px
+                            margin: -10px 0 0 -11px
 
     .logo
         font-family: 'Conv_PFAgoraSlabPro-Bold'
