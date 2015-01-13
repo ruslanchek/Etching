@@ -1,6 +1,25 @@
-+sticky-footer($height-footer, ".overall", ".push", ".footer")
++sticky-footer($height-footer, '.overall', '.push', '.footer')
 
 .footer
     background: $color-dark-bg
     border-top: 10px solid $color-red
     box-sizing: border-box
+    line-height: 1.4em
+
+    .container
+        padding: 40px 0
+        font-size: 14px
+        color: #fff
+
+        nav.bottom
+            @extend .links-white
+
+            a
+                display: block
+                margin-bottom: 0.5em
+
+        p:last-child
+            margin-bottom: 0
+
+        .title
+            color: #999ba5
