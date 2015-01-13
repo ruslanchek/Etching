@@ -200,7 +200,7 @@
 			right: -$width
 
 		&.left
-			left: -$width + 20
+			left: -$width
 
 			&:after
 				transform: rotateY(180deg)
@@ -212,13 +212,12 @@
 
 	.container
 		position: relative
-		margin-left: -20px
 
 	.slider-reviews
 		+clearfix
 
 		$item-height: 230px
-		$item-width: 340px
+		$item-width: 320px
 
 		.frame
 			width: 100%
@@ -228,8 +227,11 @@
 			.item
 				width: $item-width
 				float: left
-				padding-left: 20px
 				box-sizing: border-box
+				margin-right: 20px
+
+				&:last-of-type
+					margin-right: 0
 
 				.body
 					padding: 15px 20px

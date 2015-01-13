@@ -1,12 +1,14 @@
 $(function(){
     $('.slider-sub .frame').sly({
         horizontal: 1,
-        itemNav: 'basic',
+        itemNav: 'centered',
         smart: 1,
         activateOn: 'click',
         mouseDragging: 1,
         touchDragging: 1,
         releaseSwing: 1,
+        forceCenter: 1,
+        centered: 1,
         startAt: 1,
         scrollBy: 1,
         activatePageOn: 'click',
@@ -16,14 +18,6 @@ $(function(){
         dragHandle: 1,
         dynamicHandle: 1,
         clickBar: 1
-
-        // Buttons
-        //forward: $wrap.find('.forward'),
-        //backward: $wrap.find('.backward'),
-        //prev: $wrap.find('.prev'),
-        //next: $wrap.find('.next'),
-        //prevPage: $wrap.find('.prevPage'),
-        //nextPage: $wrap.find('.nextPage')
     });
 
     $('.slider-reviews .frame').sly({
@@ -43,14 +37,8 @@ $(function(){
         dragHandle: 1,
         dynamicHandle: 1,
         clickBar: 1,
-
-        // Buttons
-        //forward: $wrap.find('.forward'),
-        //backward: $wrap.find('.backward'),
         prevPage: $('.reviews .left'),
         nextPage: $('.reviews .right')
-        //prevPage: $wrap.find('.prevPage'),
-        //nextPage: $wrap.find('.nextPage')
     });
 
     $(window).resize(function(e) {
