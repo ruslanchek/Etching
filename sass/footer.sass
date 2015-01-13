@@ -23,3 +23,43 @@
 
         .title
             color: #999ba5
+
+        .payments-icons
+            span
+                margin: 12px 20px 4px 0
+                display: block
+                float: left
+
+        .socials
+            margin-top: 10px
+
+            a
+                display: inline-block
+                margin: 0 20px 0 0
+                background: #1B1C20
+                border-radius: 33px
+                height: 45px
+                width: 45px
+                transition: background .2s
+                position: relative
+
+                &:after
+                    position: absolute
+                    content: ''
+                    width: 25px
+                    height: 25px
+                    display: block
+                    top: 10px
+                    left: 10px
+
+                &.vk:after
+                    background: url(../images/socials/vk.png) no-repeat center
+
+                &.fb:after
+                    background: url(../images/socials/fb.png) no-repeat center
+
+                &.tw:after
+                    background: url(../images/socials/tw.png) no-repeat center
+
+                &:hover
+                    background: #1B1C20 + 5
