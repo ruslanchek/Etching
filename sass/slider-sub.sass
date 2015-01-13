@@ -1,17 +1,56 @@
-.frame
-	width: 100%
-	height: 160px
-	padding: 0
+.slider-sub
+	background: #F2F2F2
 
-	.slidee
-		margin: 0
+	$item-width: 320px
+	$item-height: 210px
+
+	.frame
+		width: 100%
+		height: $item-height
 		padding: 0
-		height: 100%
-		list-style: none
 
-		li
-			float: left
-			margin: 0 5px 0 0
+		.slidee
+			margin: 0
 			padding: 0
-			width: 120px
 			height: 100%
+			list-style: none
+
+			li
+				float: left
+				margin-right: 1px
+				width: $item-width
+				height: 100%
+				position: relative
+
+				&:last-of-type
+					margin-right: 0
+
+				.image
+					overflow: hidden
+					width: $item-width
+					height: $item-height
+
+					img
+						transition: .6s
+
+				.title
+					background: rgba(0, 0, 0, .8)
+					height: 40px
+					line-height: 42px
+					color: #fff
+					text-align: center
+					overflow: hidden
+					text-overflow: ellipsis
+					width: 100%
+					position: absolute
+					bottom: 0
+					left: 0
+					transition: color .6s
+					font-family: 'Conv_PFAgoraSlabPro-Reg'
+
+				a:hover
+					.title
+						color: #ccc
+
+					.image img
+						transform: scale(1.2)
