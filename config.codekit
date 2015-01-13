@@ -229,6 +229,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/partials\/promo-reviews.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/promo-reviews.jade",
+		"outputAbbreviatedPath": "\/partials\/promo-reviews.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/partials\/slider-main.jade": {
 		"compileDebug": 1,
 		"fileType": 512,

@@ -164,8 +164,74 @@
 		margin-left: -215px
 		line-height: 1.1em
 
-
-.promo-popular
-	padding: 45px 0
+.popular
+	padding: 20px 0 45px
 	background: #F2F2F2
 	position: relative
+
+.reviews
+	background: #DAD7D0
+	padding: 45px 0 55px
+
+	.container
+		position: relative
+
+		.left,
+		.right
+			$width: 55px
+
+			position: absolute
+			top: 0
+			height: 150px
+			width: $width
+			transition: opacity .2s
+
+			&:after
+				content: ''
+				width: 13px
+				height: 22px
+				display: block
+				position: absolute
+				top: 50%
+				left: 50%
+				margin: -11px 0 0 -7px
+				background: url(../images/icons/arrow-right-gray-dark.svg)
+
+			&.right
+				right: -$width
+
+			&.left
+				left: -$width
+
+				&:after
+					transform: rotateY(180deg)
+
+			&:hover
+				&.left,
+				&.right
+					opacity: .75
+
+	.item
+		.body
+			padding: 15px 20px
+			min-height: 120px
+			background: $color-red
+			color: #fff
+			position: relative
+			margin-bottom: 20px
+
+			&:after
+				content: ''
+				display: block
+				position: absolute
+				bottom: -12px
+				left: 20px
+				height: 0
+				border-style: solid
+				border-width: 12px 10px 0 10px
+				border-color: $color-red transparent transparent transparent
+
+		.subtitle
+			font-size: $font-size-medium
+			color: #7d7d7d
+
