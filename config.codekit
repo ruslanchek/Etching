@@ -216,6 +216,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -481,7 +490,7 @@
 		"outputStyle": 0
 		},
 	"\/sass\/_breakpoint.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -497,7 +506,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/blocks.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -513,7 +522,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/breakpoint\/_context.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -529,7 +538,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_helpers.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -545,7 +554,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_legacy-settings.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -561,7 +570,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_no-query.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -577,7 +586,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_parsers.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -593,7 +602,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_respond-to.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -609,7 +618,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/_settings.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -625,7 +634,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/_double.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -641,7 +650,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/_query.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -657,7 +666,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/_resolution.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -673,7 +682,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/_single.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -689,7 +698,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/_triple.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -705,7 +714,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/double\/_default-pair.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -721,7 +730,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/double\/_default.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -737,7 +746,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/double\/_double-string.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -753,7 +762,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/resolution\/_resolution.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -769,7 +778,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/single\/_default.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -785,7 +794,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/breakpoint\/parsers\/triple\/_default.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -817,7 +826,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/commons.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -833,7 +842,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -849,7 +858,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/footer.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -865,7 +874,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/grid.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -881,7 +890,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/header.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -897,7 +906,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/links.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -913,7 +922,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/products.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -929,7 +938,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/screen.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -945,7 +954,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/slider-main.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -961,7 +970,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/slider-sub.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -977,7 +986,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/sprites.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -993,7 +1002,7 @@
 		"useLibsass": false
 		},
 	"\/sass\/vars.sass": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
@@ -1011,7 +1020,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Ruslan Shashkov",
+"lastSavedByUser": "Ruslan",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -1602,7 +1611,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 3,
