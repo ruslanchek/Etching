@@ -1,6 +1,6 @@
-var UI = {};
+var MainPageUI = {};
 
-UI.SliderMain = function(){
+MainPageUI.SliderMain = function(){
     var $wrap = $('.slider-main'),
         $frame = $wrap.find('.frame');
 
@@ -26,8 +26,7 @@ UI.SliderMain = function(){
             dynamicHandle: 1,
             clickBar: 1,
             prevPage: $wrap.find('.left'),
-            nextPage: $wrap.find('.right'),
-            interactive: $frame.find('.content')
+            nextPage: $wrap.find('.right')
         });
 
         return this;
@@ -52,7 +51,7 @@ UI.SliderMain = function(){
     return this;
 };
 
-UI.SliderSub = function(){
+MainPageUI.SliderSub = function(){
     var $frame = $('.slider-sub .frame');
 
     this.init = function(){
@@ -87,7 +86,7 @@ UI.SliderSub = function(){
     return this;
 };
 
-UI.SliderReviews = function(){
+MainPageUI.SliderReviews = function(){
     var $frame = $('.slider-reviews .frame');
 
     this.init = function(){
@@ -122,22 +121,22 @@ UI.SliderReviews = function(){
     return this;
 };
 
-UI.init = function(){
+MainPageUI.init = function(){
     this.sliderMain = new this.SliderMain().init();
     this.sliderSub = new this.SliderSub().init();
     this.sliderReviews = new this.SliderReviews().init();
 };
 
-UI.resize = function(){
+MainPageUI.resize = function(){
     this.sliderMain.resize();
     this.sliderSub.resize();
     this.sliderReviews.resize();
 };
 
 $(function(){
-    UI.init();
+    MainPageUI.init();
 });
 
 $(window).on('resize', function(){
-    UI.resize();
+    MainPageUI.resize();
 });
