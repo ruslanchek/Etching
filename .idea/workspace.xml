@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/commons.sass" afterPath="$PROJECT_DIR$/sass/commons.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/header.sass" afterPath="$PROJECT_DIR$/sass/header.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css.map" afterPath="$PROJECT_DIR$/css/screen.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,8 +73,18 @@
       <file leaf-file-name="header.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35875943" vertical-offset="607" max-vertical-offset="1800">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84911984" vertical-offset="607" max-vertical-offset="1800">
+              <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commons.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/commons.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -100,7 +112,6 @@
         <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/partials/promo-popular.jade" />
         <option value="$PROJECT_DIR$/images/icons/arrow-right-gray-dark.svg" />
-        <option value="$PROJECT_DIR$/sass/commons.sass" />
         <option value="$PROJECT_DIR$/sass/vars.sass" />
         <option value="$PROJECT_DIR$/sass/links.sass" />
         <option value="$PROJECT_DIR$/sass/icons.sass" />
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/sass/products.sass" />
+        <option value="$PROJECT_DIR$/sass/commons.sass" />
         <option value="$PROJECT_DIR$/sass/header.sass" />
       </list>
     </option>
@@ -426,7 +438,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421229617135</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="w">
+      <created>1421230149708</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1421230149709</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -738,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/commons.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26404023" vertical-offset="0" max-vertical-offset="1193">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12573345" vertical-offset="0" max-vertical-offset="1193">
@@ -826,10 +836,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/commons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35875943" vertical-offset="607" max-vertical-offset="1800">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84911984" vertical-offset="607" max-vertical-offset="1800">
+          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
           <folding />
         </state>
       </provider>
