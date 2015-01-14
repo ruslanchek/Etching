@@ -1,4 +1,8 @@
 .header
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1)
+    position: relative
+    z-index: 4
+
     .top
         height: $height-header-top
         background: $color-dark-bg
@@ -28,78 +32,6 @@
         height: $height-header-section
         line-height: $height-header-section
         text-align: right
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .1)
-
-        nav.main
-            display: inline-block
-            height: $height-header-section
-            margin-left: 20px
-
-            a
-                height: $height-header-section
-                display: inline-block
-                padding: 0 20px
-                border-left: 1px solid #ededed
-                box-sizing: border-box
-                position: relative
-                color: #000
-                transition: opacity .1s
-
-                &:last-of-type
-                    border-right: 1px solid #ededed
-
-                &:after
-                    position: absolute
-                    background: transparent
-                    height: 5px
-                    width: 100%
-                    bottom: 0
-                    left: 0
-                    content: ''
-                    transition: background .1s
-
-                &:hover
-                    opacity: .8
-
-                    &:after
-                        background: #cdcdcd
-
-                &.active
-                    &:after
-                        background: $color-red
-
-                &.icon
-                    position: relative
-                    width: 68px
-
-                    &:before
-                        content: '\00a0'
-
-                    i
-                        display: block
-                        position: absolute
-                        top: 50%
-                        left: 50%
-                        content: ''
-                        background-repeat: no-repeat
-
-                        &.cart
-                            background-image: url(../images/icons/cart.svg)
-                            width: 28px
-                            height: 23px
-                            margin: -11px 0 0 -16px
-
-                        &.user
-                            background-image: url(../images/icons/user.svg)
-                            width: 24px
-                            height: 25px
-                            margin: -12px 0 0 -12px
-
-                        &.search
-                            background-image: url(../images/icons/search.svg)
-                            width: 20px
-                            height: 20px
-                            margin: -10px 0 0 -11px
 
     .logo
         font-family: 'Conv_PFAgoraSlabPro-Bold'

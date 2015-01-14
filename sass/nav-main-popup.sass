@@ -1,0 +1,38 @@
+.limiter.nav-main-popup-limiter
+	position: relative
+
+.nav-main-popup
+	position: absolute
+	top: 0
+	left: 0
+	background: #fff
+	z-index: 3
+	width: 100%
+	transition: all 500ms cubic-bezier(0.075, 0.820, 0.165, 1.000)
+	transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000)
+	padding: 20px
+	box-sizing: border-box
+
+	&.show
+		top: 0
+
+	&.dark
+		background: $color-dark-bg
+		color: #fff
+
+	&.create
+		.scheme
+			box-sizing: border-box
+			width: 335px
+			padding: 20px
+			background: #393b41
+			border-radius: 10px
+			float: left
+
+		nav
+			@extend .links-white
+			+clearfix
+
+			.col
+				float: left
+				width: 33.3333%
