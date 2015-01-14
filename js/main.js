@@ -26,7 +26,8 @@ UI.SliderMain = function(){
             dynamicHandle: 1,
             clickBar: 1,
             prevPage: $wrap.find('.left'),
-            nextPage: $wrap.find('.right')
+            nextPage: $wrap.find('.right'),
+            interactive: $frame.find('.content')
         });
 
         return this;

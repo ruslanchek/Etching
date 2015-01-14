@@ -10,7 +10,7 @@
 		position: absolute
 		width: 100%
 		bottom: 20px
-		z-index: 2
+		z-index: 3
 		
 		li 
 			display: inline-block
@@ -36,7 +36,7 @@
 		display: block
 		position: absolute
 		top: 0
-		z-index: 2
+		z-index: 3
 
 		i
 			width: 40px
@@ -81,6 +81,32 @@
 				float: left
 				height: $item-height
 				position: relative
+
+				.content
+					color: #fff
+					width: $width-page-limit
+					position: absolute
+					top: 0
+					left: 50%
+					margin-left: -$width-page-limit / 2
+					z-index: 2
+
+					.title
+						padding-top: 75px
+						font-family: 'Conv_PFAgoraSlabPro-Reg'
+						color: $color-red
+						font-size: 36px
+						width: 400px
+						margin-bottom: 30px
+						line-height: 1.1em
+
+					.text
+						width: 300px
+						margin-bottom: 45px
+
+					&.white
+						.title
+							color: #fff
 
 				.image
 					width: 100%

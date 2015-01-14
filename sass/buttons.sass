@@ -1,0 +1,44 @@
+.button
+	$height-regular: 32px
+	$height-big: 40px
+
+	@extend .text-curly
+	display: inline-block
+	text-align: center
+	height: $height-regular
+	line-height: $height-regular + 2
+	border-radius: $height-regular / 2
+	padding: 0 4ex
+	white-space: nowrap
+	border: none
+	cursor: pointer
+	font-size: 16px
+	transition: .2s
+	position: relative
+
+	&:disabled
+		opacity: .6
+
+	&:active
+		top: 1px
+
+	&.big
+		height: $height-big
+		line-height: $height-big + 3
+		border-radius: $height-big / 2
+		font-size: 18px
+
+	&.shadow
+		box-shadow: 0 .06em .12em rgba(0, 0, 0, .45)
+
+	&.white
+		$color: #fff
+
+		background: $color
+		color: #000
+
+		&:hover
+			background: $color - 15
+
+		&:active
+			background: $color - 25
