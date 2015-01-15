@@ -3,17 +3,19 @@
 
 .nav-main-popup
 	position: absolute
-	top: 0
+	top: -500px
 	left: 0
 	background: #fff
 	z-index: 5
 	width: 100%
-	transition: all 500ms cubic-bezier(0.075, 0.820, 0.165, 1.000)
-	transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000)
-	display: none
 
-	&.show
-		display: block
+	&.in
+		transition: top .4s cubic-bezier(0.190, 1.000, 0.220, 1.000)
+		transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000)
+
+	&.out
+		transition: top .4s cubic-bezier(0.190, 1.000, 0.220, 1.000)
+		transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000)
 
 	&.dark
 		background: $color-dark-bg
