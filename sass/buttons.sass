@@ -13,7 +13,7 @@
 	border: none
 	cursor: pointer
 	font-size: 16px
-	transition: .2s
+	transition: .15s
 	position: relative
 
 	&:disabled
@@ -42,3 +42,29 @@
 
 		&:active
 			background: $color - 25
+
+	&.red
+		$color: $color-red
+
+		background: $color
+		color: #fff
+
+		&:hover
+			background: $color - 15
+
+		&:active
+			background: $color - 25
+
+	&.gray-red
+		$color: #f4f4f3
+		
+		background: $color
+		color: $color-text-default
+
+		&:hover
+			color: #fff
+			background: $color-red
+
+		&:active
+			color: #fff
+			background: $color-red - 15

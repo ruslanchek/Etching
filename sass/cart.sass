@@ -1,0 +1,67 @@
+.cart-min
+	.items
+		padding: 20px 40px 20px 20px
+
+		.item
+			margin-bottom: 20px
+
+			.title
+				font-size: 24px
+				@extend .text-curly
+				margin: 12px 0
+
+			.price
+				font-size: 24px
+				@extend .text-curly
+				margin: 12px 0
+
+			.image
+				img
+					width: 100%
+
+			.params-table
+				
+
+	.bottom
+		background: #f2f2f2
+		padding: 20px 40px 20px 20px
+
+
+	.badge
+		font-size: 20px
+		padding: 0.83em 3em 1em 2em
+		display: inline-block
+		position: relative
+		box-sizing: border-box
+		height: 80px
+		border-radius: 5px 0 0 5px
+		@extend .text-curly
+
+		&.purple
+			$color: #6c7394
+
+			background: $color
+			color: #fff
+			position: relative
+
+			&:after
+				content: ''
+				position: absolute
+				top: 50%
+				right: -7px
+				width: 10px
+				height: 10px
+				margin: -5px 0 0 -5px
+				background: #f2f2f2
+				border-radius: 5px
+
+			&:before
+				content: ''
+				position: absolute
+				top: 0
+				right: -30px
+				width: 0
+				height: 0
+				border-style: solid
+				border-width: 40px 0 40px 30px
+				border-color: transparent transparent transparent $color

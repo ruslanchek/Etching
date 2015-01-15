@@ -1,5 +1,5 @@
 .limiter.nav-main-popup-limiter
-	.nav-main-popup.dark.show.create
+	.nav-main-popup.dark.create
 		.scheme
 			.step
 				mark 01.
@@ -39,7 +39,7 @@
 			.col
 				.section
 					.title Электроника
-					a(href="#") USB флешки
+					a(href="#") USB-флешки
 					a(href="#") Внешние диски
 					a(href="#") Гаджеты Apple
 
@@ -67,3 +67,59 @@
 					a(href="#") Визитки
 					a(href="#") Визитницы
 					a(href="#") Призы с фигурками
+
+	.nav-main-popup.cart.show
+		.cart-min
+			.items
+				.item
+					.grid-row
+						.col-2
+							.image 
+								a(href="#"): img(src="http://lorempixel.com/200/200/fashion/?1234", alt="Чехол собственного дизайна для iPhone 6 Plus")
+						.col-8
+							.title 
+								a(href="#") Чехол собственного дизайна для iPhone 6 Plus
+
+							.params-table
+								.row
+									.col.left Размеры (ШxВxТ)
+									.col.right
+
+								.row
+									.col.left Диагональ
+									.col.right
+
+								.row
+									.col.left Размер изображения
+									.col.right
+										
+						.col-2
+							.price 12 400 руб.
+							.button.gray-red Удалить
+
+				.item
+					.grid-row
+						.col-2
+							.image 
+								a(href="#"): img(src="http://lorempixel.com/200/200/fashion/?1235", alt="Чехол собственного дизайна для iPhone 6 Plus")
+						.col-8
+							.title 
+								a(href="#") USB-флешка с логотипом Ferrari
+						.col-2
+							.price 5 990 руб.
+							.button.gray-red Удалить
+
+			.bottom
+				.grid-row
+					.col-2 &nbsp;
+					.col-7 
+						.badge.big.purple.arrow 
+							|Купи 5 подарков 
+							br
+							|и получи скидку
+					.col-3
+						.total-price
+							.title Итого:
+							.price 12 500 руб.
+							a(href="#").button.shadow.big.red Оформить заказ
+				
