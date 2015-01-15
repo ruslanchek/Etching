@@ -1,5 +1,13 @@
 var HeaderUI = {};
 
+HeaderUI.Search = function(){
+	this.init = function(){
+		this.initTrigger();
+
+		return this;
+	};
+};
+
 HeaderUI.Menu = function(){
 	var _this = this,
 		opened = false,
@@ -19,6 +27,17 @@ HeaderUI.Menu = function(){
 	};
 
 	this.showPanel = function(anchor){
+		if(opened == anchor) return;
+
+		$('nav.main a.active').each(function(){
+			if($(this).data('anchor')){
+				$(this).removeClass('active');
+			}
+		});
+
+		var $anchor = $('nav.main a[data-anchor="' + anchor + '"]');
+		$anchor.addClass('active');
+
 		var $panel = $('.nav-main-popup[data-anchor="' + anchor + '"]'),
 			time = 0;
 
@@ -41,6 +60,8 @@ HeaderUI.Menu = function(){
 				}, animTime);
 			}, trsholdTime);
 		}, time);
+
+		opened = anchor;
 	};
 
 	this.hidePanel = function(anchor){
@@ -58,28 +79,19 @@ HeaderUI.Menu = function(){
 				$panel.removeClass('out');
 			}, animTime);
 		}, trsholdTime);
+
+		opened = false;
 	};
 
 	this.openClose = function(anchor){
-		var $anchor = $('nav.main a[data-anchor="' + anchor + '"]');
-
-		$('nav.main a.active').each(function(){
-			if($(this).data('anchor')){
-				$(this).removeClass('active');
-			}
-		});
-
 		if(opened == anchor){
 			this.hidePanel(opened);
-			opened = false;
 		}else{
-			$anchor.addClass('active');
 			this.showPanel(anchor);
-			opened = anchor;
 		}
 	};
 
-	this.initMenu = function(){
+	this.initMenuTrigger = function(){
 		$('nav.main a').on('click', function(e){
 			if($(this).data('anchor')){
 				e.preventDefault();
@@ -89,7 +101,7 @@ HeaderUI.Menu = function(){
 	};
 
 	this.init = function(){
-		this.initMenu();
+		this.initMenuTrigger();
 
 		return this;
 	};
