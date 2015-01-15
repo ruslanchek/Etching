@@ -1,6 +1,29 @@
 var HeaderUI = {};
 
 HeaderUI.Search = function(){
+	var _this = this,
+		searching = false;
+
+	this.openSearchInput = function(){
+		searching = true;
+		$('nav.main').addClass('searching');
+	};
+
+	this.closeSearchInput = function(){
+		searching = false;
+		$('nav.main').removeClass('searching');
+	};
+
+	this.initTrigger = function(){
+		$('nav.main a').on('click', function(e){
+			e.preventDefault();
+
+			if(!searching){
+				_this.openSearchInput();
+			}
+		});
+	};
+
 	this.init = function(){
 		this.initTrigger();
 
@@ -109,6 +132,7 @@ HeaderUI.Menu = function(){
 
 HeaderUI.init = function(){
     this.menu = new this.Menu().init();
+    this.search = new this.Search().init();
 };
 
 $(function(){

@@ -1,7 +1,10 @@
 nav.main
+    $icon-width: 68px
+
     display: inline-block
     height: $height-header-section
     margin-left: 20px
+    position: relative
 
     a
         height: $height-header-section
@@ -38,7 +41,7 @@ nav.main
 
         &.icon
             position: relative
-            width: 68px
+            width: $icon-width
 
             &:before
                 content: '\00a0'
@@ -67,4 +70,29 @@ nav.main
                     background-image: url(../images/icons/search.svg)
                     width: 20px
                     height: 20px
-                    margin: -10px 0 0 -11px            
+                    margin: -10px 0 0 -11px
+                    z-index: 3
+                    transition: margin .3s
+
+    .search-input
+        position: absolute
+        right: $icon-width*2
+        top: 0
+        height: 100%
+        width: 0
+        overflow: hidden
+        background: #fff
+        transition: width .3s
+        z-index: 2
+
+    &.searching
+        .search-input
+            width: 523px
+
+        .icon i.search
+            margin-left: -468px
+
+
+
+
+
