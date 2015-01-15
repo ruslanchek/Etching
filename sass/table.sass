@@ -1,0 +1,28 @@
+.params-table
+	.row
+		+clearfix
+		position: relative
+		margin: 3px 0
+
+		&:after
+			content: ''
+			position: absolute
+			bottom: 0.5em
+			left: 0
+			height: 0
+			width: 100%
+			border-bottom: 1px dotted #999
+			z-index: 0
+
+	.col
+		position: relative
+		z-index: 1
+		background: #fff
+
+		&.left
+			float: left
+			padding-right: 0.5ex
+
+		&.right
+			float: right
+			padding-left: 0.5ex
