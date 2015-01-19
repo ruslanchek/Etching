@@ -1,6 +1,7 @@
 .button
 	$height-regular: 32px
 	$height-big: 40px
+	$height-hero: 60px
 
 	@extend .text-curly
 	display: inline-block
@@ -24,6 +25,12 @@
 		line-height: $height-big + 3
 		border-radius: $height-big / 2
 		font-size: 18px
+
+	&.hero
+		font-size: 24px
+		height: $height-hero
+		line-height: $height-hero + 3
+		border-radius: $height-hero / 2
 
 	&.shadow
 		box-shadow: 0 1px 2px rgba(0, 0, 0, .4)
