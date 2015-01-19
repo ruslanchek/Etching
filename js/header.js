@@ -1,6 +1,6 @@
 var HeaderUI = {};
 
-HeaderUI.Search = function(){
+HeaderUI.Search = function(onOpen){
 	var _this = this,
 		searching = false,
 		$input = $('nav.main .search-input input'),
@@ -14,6 +14,7 @@ HeaderUI.Search = function(){
 		searching = true;
 		$('nav.main').addClass('searching');
 		$input.focus();
+		if(onOpen) onOpen();
 	};
 
 	this.close = function(){
@@ -165,7 +166,10 @@ HeaderUI.Menu = function(onOpenClose){
 HeaderUI.init = function(){
 	var _this = this;
 
-    this.search = new this.Search().init();
+    this.search = new this.Search(function(){
+    	_this.menu.hidePanel(_this.menu.getOpened());
+    }).init();
+
     this.menu = new this.Menu(function(){
     	_this.search.close();
     }).init();
