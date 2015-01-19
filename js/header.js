@@ -2,14 +2,21 @@ var HeaderUI = {};
 
 HeaderUI.Search = function(){
 	var _this = this,
-		searching = false;
+		searching = false,
+		$input = $('nav.main .search-input input'),
+		clickOutside = new UI.ClickOutside('nav.main .search-input', function(){
+			_this.close();
+		});
 
-	this.openSearchInput = function(){
+	clickOutside.bind();
+
+	this.open = function(){
 		searching = true;
 		$('nav.main').addClass('searching');
+		$input.focus();
 	};
 
-	this.closeSearchInput = function(){
+	this.close = function(){
 		searching = false;
 		$('nav.main').removeClass('searching');
 	};
@@ -19,8 +26,16 @@ HeaderUI.Search = function(){
 			e.preventDefault();
 
 			if(!searching){
-				_this.openSearchInput();
+				_this.open();
 			}
+		});
+
+		$('nav.main .search-input .search-icon').on('click', function(){
+			$input.focus();
+		});
+
+		$('nav.main .search-input .close-icon').on('click', function(){
+			_this.close();
 		});
 	};
 
@@ -31,7 +46,7 @@ HeaderUI.Search = function(){
 	};
 };
 
-HeaderUI.Menu = function(){
+HeaderUI.Menu = function(onOpenClose){
 	var _this = this,
 		opened = false,
 		animTime = 400,
@@ -122,6 +137,8 @@ HeaderUI.Menu = function(){
 	};
 
 	this.openClose = function(anchor){
+		if(onOpenClose) onOpenClose();
+
 		if(opened == anchor){
 			this.hidePanel(opened);
 		}else{
@@ -146,8 +163,12 @@ HeaderUI.Menu = function(){
 };
 
 HeaderUI.init = function(){
-    this.menu = new this.Menu().init();
+	var _this = this;
+
     this.search = new this.Search().init();
+    this.menu = new this.Menu(function(){
+    	_this.search.close();
+    }).init();
 };
 
 $(function(){

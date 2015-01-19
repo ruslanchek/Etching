@@ -83,14 +83,75 @@ nav.main
         overflow: hidden
         background: #fff
         transition: width .3s
-        z-index: 2
+        z-index: 4
+
+        input
+            display: block
+            height: $height-header-section
+            width: 100%
+            box-sizing: border-box
+            padding: 0 $icon-width
+
+        .close-icon
+            right: 0
+            top: 0
+            width: $icon-width
+            height: $height-header-section
+            cursor: pointer
+            transition: .3s
+            z-index: 3
+            position: absolute
+            transform: scale(0)
+
+            &:hover
+                opacity: .8
+
+            &:before
+                content: ''
+                background: url(../images/icons/close.svg) no-repeat
+                width: 20px
+                height: 20px
+                display: block
+                top: 50%
+                left: 50%
+                margin: -10px 0 0 -10px
+                position: absolute
+
+        .search-icon
+            left: 0
+            top: 0
+            z-index: 3
+            position: absolute
+            width: $icon-width
+            height: $height-header-section
+            cursor: pointer
+            opacity: 0
+            transition: .3s
+
+            &:hover
+                opacity: .8
+            
+            &:before
+                content: ''
+                background-image: url(../images/icons/search.svg)
+                width: 20px
+                height: 20px
+                display: block
+                top: 50%
+                left: 50%
+                margin: -10px 0 0 -11px
+                position: absolute
+
 
     &.searching
         .search-input
             width: 523px
 
-        .icon i.search
-            margin-left: -468px
+            .search-icon
+                opacity: 1
+
+            .close-icon
+                transform: scale(1)
 
 
 
