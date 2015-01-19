@@ -15,7 +15,7 @@ HeaderUI.Search = function(){
 	};
 
 	this.initTrigger = function(){
-		$('nav.main a').on('click', function(e){
+		$('nav.main a.search').on('click', function(e){
 			e.preventDefault();
 
 			if(!searching){
@@ -35,7 +35,12 @@ HeaderUI.Menu = function(){
 	var _this = this,
 		opened = false,
 		animTime = 400,
-		trsholdTime = 50;
+		trsholdTime = 50,
+		clickOutside = new UI.ClickOutside('.nav-main-popup, nav.main a', function(){
+			_this.hidePanel(_this.getOpened());
+		});
+
+	clickOutside.bind();
 
 	var getHidedPanelTopPosition = function($panel){
 		return -$panel.outerHeight();
@@ -49,6 +54,10 @@ HeaderUI.Menu = function(){
 		});
 	};
 
+	this.getOpened = function(){
+		return opened;
+	};
+
 	this.showPanel = function(anchor){
 		if(opened == anchor) return;
 
@@ -57,9 +66,6 @@ HeaderUI.Menu = function(){
 				$(this).removeClass('active');
 			}
 		});
-
-		var $anchor = $('nav.main a[data-anchor="' + anchor + '"]');
-		$anchor.addClass('active');
 
 		var $panel = $('.nav-main-popup[data-anchor="' + anchor + '"]'),
 			time = 0;
@@ -72,6 +78,9 @@ HeaderUI.Menu = function(){
 		setTimeout(function(){
 			$panel.removeClass('out');
 			$panel.addClass('in');
+
+			var $anchor = $('nav.main a[data-anchor="' + anchor + '"]');
+			$anchor.addClass('active');
 
 			setTimeout(function(){
 				$panel.addClass('show').css({
@@ -92,6 +101,12 @@ HeaderUI.Menu = function(){
 
 		$panel.removeClass('in');
 		$panel.addClass('out');
+
+		$('nav.main a.active').each(function(){
+			if($(this).data('anchor')){
+				$(this).removeClass('active');
+			}
+		});
 
 		setTimeout(function(){
 			$panel.removeClass('show').css({

@@ -1,1 +1,1 @@
-$(function(){$(".select").select2({placeholder:"Select a State"}),$(document).on("click.selector",function(e){0===$(e.target).closest(".selector").length&&$(".selector").removeClass("active")}),$(".selector").on("click",function(){$(this).toggleClass("active")})});
+var UI={};UI.ClickOutside=function(i,n){var t=_.uniqueId(),u=$(i);this.bind=function(){$(document).on("mouseup.UIClickOutside_"+t,function(i){u.is(i.target)||0!==u.has(i.target).length||n&&n()})},this.unbind=function(){$(document).off("mouseup.UIClickOutside_"+t)}};
