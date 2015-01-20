@@ -1,0 +1,60 @@
+.form
+	label
+		color: #9a9a9a
+		font-size: 14px
+		position: relative
+
+		div.error,
+		span.error
+			text-align: center
+			color: $color-red
+			position: absolute
+			top: 95px
+			left: 0
+			width: 100%
+
+	input
+		width: 100%
+		height: 60px
+		border: 1px solid #E2E2E2
+		background: #fff
+		padding: 0
+		box-sizing: border-box
+		padding: 0 10px
+		transition: .1s
+		@extend .text-curly
+		font-size: 30px
+		text-align: center
+		
+		&:hover	
+			border-color: #d0d0d0
+
+		&.error
+			border-color: $color-red + 100
+
+			&:hover
+				border-color: $color-red + 20
+
+	.input
+		margin-bottom: 40px
+
+		input
+			margin-top: 8px
+
+	.input-double
+		margin-bottom: 40px
+
+		&:after
+			content: ''
+			display: block
+			clear: both
+
+		input
+			margin-top: 8px
+
+		.col
+			width: 49%
+			float: left
+
+			&:last-of-type
+				float: right
