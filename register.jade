@@ -1,0 +1,39 @@
+doctype html
+html
+	include partials/head
+	body.page-biege
+		.overall
+			include partials/header
+			include partials/nav-main-popup
+
+			main.main
+				.register
+					h2.text-center.hero-title Откройте свой интернет-магазин
+					p.subtitle.text-center Начните зарабатывать нормальные деньги
+
+					form
+						.input
+							label Название магазина
+								input(name="title", type="text", value="Магазин подарков")
+
+						.input
+							label Электронная почта
+								input(name="email", type="text")
+
+						.input-double
+							.col
+								label Пароль
+									input(name="pass_1", type="password")
+
+							.col
+								label Пароль еще раз
+									input.error(name="pass_2", type="password")
+									.error Введите пароль ещё раз
+						
+						br
+						.text-center
+							button.button.hero.red.shadow(type="submit") Зарегистрироваться
+
+			.push
+
+		include partials/footer
