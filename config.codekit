@@ -74,6 +74,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/art\/buy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7131,
+		"inputAbbreviatedPath": "\/images\/art\/buy.png",
+		"outputAbbreviatedPath": "\/images\/art\/buy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/art\/editors.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22568,
+		"inputAbbreviatedPath": "\/images\/art\/editors.png",
+		"outputAbbreviatedPath": "\/images\/art\/editors.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/art\/laptop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5439,
+		"inputAbbreviatedPath": "\/images\/art\/laptop.png",
+		"outputAbbreviatedPath": "\/images\/art\/laptop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/art\/rocket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14263,
+		"inputAbbreviatedPath": "\/images\/art\/rocket.png",
+		"outputAbbreviatedPath": "\/images\/art\/rocket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/art\/scissors.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8228,
+		"inputAbbreviatedPath": "\/images\/art\/scissors.png",
+		"outputAbbreviatedPath": "\/images\/art\/scissors.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/art\/writing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17752,
+		"inputAbbreviatedPath": "\/images\/art\/writing.png",
+		"outputAbbreviatedPath": "\/images\/art\/writing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg\/many-pics.png": {
 		"fileType": 32768,
 		"ignore": 0,
