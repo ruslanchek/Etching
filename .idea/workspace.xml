@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="w">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cart.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/cart.sass" afterPath="$PROJECT_DIR$/sass/cart.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
+    <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/buttons.sass" afterPath="$PROJECT_DIR$/sass/buttons.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css.map" afterPath="$PROJECT_DIR$/css/screen.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -81,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74811083" vertical-offset="159" max-vertical-offset="1350">
-              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1350">
+              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/buttons.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.035989717" vertical-offset="123" max-vertical-offset="1305">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -121,28 +129,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/products.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="690">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="heroku" target-branch="master" />
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/links.sass" />
         <option value="$PROJECT_DIR$/sass/icons.sass" />
         <option value="$PROJECT_DIR$/sass/sprites.sass" />
         <option value="$PROJECT_DIR$/images/socials/facebook.svg" />
@@ -193,6 +190,7 @@
         <option value="$PROJECT_DIR$/index.jade" />
         <option value="$PROJECT_DIR$/sass/cart.sass" />
         <option value="$PROJECT_DIR$/cart.jade" />
+        <option value="$PROJECT_DIR$/sass/buttons.sass" />
       </list>
     </option>
   </component>
@@ -551,7 +549,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421849316228</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="w">
+      <created>1421852033884</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1421852033884</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,13 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partials/promo-popular.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/promo-many-pictures.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.012096774" vertical-offset="0" max-vertical-offset="1240">
@@ -995,8 +992,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cart.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74811083" vertical-offset="159" max-vertical-offset="1350">
-          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1350">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/buttons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035989717" vertical-offset="123" max-vertical-offset="1305">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
