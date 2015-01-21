@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="w">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/breadcrumbs.jade" afterPath="$PROJECT_DIR$/partials/breadcrumbs.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/breadcrumbs.sass" afterPath="$PROJECT_DIR$/sass/breadcrumbs.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog-2.html" afterPath="$PROJECT_DIR$/catalog-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog-3.html" afterPath="$PROJECT_DIR$/catalog-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.html" afterPath="$PROJECT_DIR$/catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css.map" afterPath="$PROJECT_DIR$/css/screen.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +49,8 @@
       <file leaf-file-name="breadcrumbs.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/breadcrumbs.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.102827765" vertical-offset="0" max-vertical-offset="1167">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.06426735" vertical-offset="0" max-vertical-offset="1167">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -963,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/breadcrumbs.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.102827765" vertical-offset="0" max-vertical-offset="1167">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.06426735" vertical-offset="0" max-vertical-offset="1167">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
