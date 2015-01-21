@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="w">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/nav-left.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/nav-left.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/breadcrumbs.sass" afterPath="$PROJECT_DIR$/sass/breadcrumbs.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog-2.html" afterPath="$PROJECT_DIR$/catalog-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog-2.jade" afterPath="$PROJECT_DIR$/catalog-2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/commons.sass" afterPath="$PROJECT_DIR$/sass/commons.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css.map" afterPath="$PROJECT_DIR$/css/screen.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.sass" afterPath="$PROJECT_DIR$/sass/screen.sass" />
+    <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shop.iws" />
@@ -483,7 +473,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421827937344</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="w">
+      <created>1421829754084</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1421829754084</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
