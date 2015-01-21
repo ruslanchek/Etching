@@ -157,6 +157,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/art\/apple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6316,
+		"inputAbbreviatedPath": "\/images\/art\/apple.png",
+		"outputAbbreviatedPath": "\/images\/art\/apple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/art\/buy.png": {
 		"fileType": 32768,
 		"ignore": 0,
