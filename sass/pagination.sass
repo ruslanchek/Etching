@@ -1,0 +1,39 @@
+.pagination
+	$size: 36px
+	margin: 40px 0
+
+	height: $size
+	position: relative
+
+	a
+		display: inline-block
+		line-height: $size
+
+		&.back,
+		&.next
+			position: absolute
+			white-space: nowrap
+			top: 0
+
+			&.back
+				left: 0 
+
+			&.next
+				right: 0
+
+
+	.pages
+		width: 75%
+		margin: 0 auto
+		text-align: center
+		font-size: 18px
+
+		a
+			width: $size
+			height: $size
+			margin: 0 5%
+
+			&.active
+				background: $color-red
+				color: #fff
+				border-radius: $size/2
