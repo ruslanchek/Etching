@@ -1,0 +1,85 @@
+doctype html
+html
+	include partials/head
+	
+	body.page-biege
+		.overall
+			include partials/header
+			include partials/nav-main-popup
+
+			main.main
+				.limiter
+					.cart-full
+						.cart-min
+							h1.text-center.hero-title Оформление заказа
+
+							.items
+								.item
+									.grid-row
+										.col-4
+											.image
+												a(href="#"): img(src="http://lorempixel.com/200/200/fashion/?1234", alt="Чехол собственного дизайна для iPhone 6 Plus")
+										.col-16
+											.title
+												a(href="#") Чехол собственного дизайна для iPhone 6 Plus
+
+											.params-table
+												.row
+													.col.left Размеры (ШxВxТ)
+													.col.right 77.8x158.1x7.1 мм
+
+												.row
+													.col.left Диагональ
+													.col.right 5.5 дюйм
+
+												.row
+													.col.left Размер изображения
+													.col.right 1080x192
+
+										.col-4.text-right
+											.price 12 400 руб.
+											.button.gray-red Удалить
+
+								.item
+									.grid-row
+										.col-4
+											.image
+												a(href="#"): img(src="http://lorempixel.com/200/200/fashion/?1235", alt="Чехол собственного дизайна для iPhone 6 Plus")
+										.col-16
+											.title
+												a(href="#") USB-флешка с логотипом Ferrari
+
+											.params-table
+												.row
+													.col.left Размеры (ШxВxТ)
+													.col.right 77.8x158.1x7.1 мм
+
+												.row
+													.col.left Диагональ
+													.col.right 5.5 дюйм
+
+												.row
+													.col.left Размер изображения
+													.col.right 1080x192
+
+										.col-4.text-right
+											.price 5 990 руб.
+											.button.gray-red Удалить
+
+							.bottom
+								.grid-row
+									.col-14
+										.badge.big.purple.arrow
+											|Купи 5 подарков
+											br
+											|и получи скидку
+									.col-10.text-right
+										.total-price
+											span.title Итого:
+											span.price 18 390 руб.
+
+										a(href="#").button.shadow.big.red Оформить заказ
+
+			.push
+
+		include partials/footer
