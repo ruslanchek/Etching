@@ -1,0 +1,39 @@
+doctype html
+html
+	include partials/head
+
+	body.page-biege
+		.overall
+			include partials/header
+			include partials/nav-main-popup
+
+			main.main.regular-page
+				.limiter
+					.grid-row
+						.col-18
+							include partials/breadcrumbs
+							h1.hero-title Чехлы для iPhone
+
+						.col-6
+							a.create-link(href="#") Создай рисунок своими руками за 5 минут
+								span.icon-create
+
+					.grid-row
+						.col-6
+							include partials/nav-left
+
+						.col-18
+							include partials/hero
+							include partials/product-cards-2
+
+							br
+							br
+							br
+
+							h2.text-center.hero-title-sub Похожие товары
+
+							include partials/product-cards-3
+
+			.push
+
+		include partials/footer
