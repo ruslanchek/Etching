@@ -1,0 +1,40 @@
+.product-cat
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+	box-sizing: border-box
+	padding: 10px
+	display: block
+	background: #fff
+	cursor: pointer
+	transition: .3s
+
+	&:hover
+		box-shadow: 0 1px 8px rgba(0, 0, 0, .3)
+
+	.content
+		border: 1px solid $color-red
+		display: block
+		text-align: center
+		height: 130px
+		position: relative
+
+		.number
+			@extend .text-curly
+			font-size: 140px
+			color: #f7f7f7
+			width: 100%
+			position: absolute
+			top: 53%
+			left: 0
+			z-index: 1
+
+		.title
+			@extend .text-curly
+			font-size: 20px
+			line-height: 1.4em
+			text-align: center
+			display: table-cell
+			height: 130px
+			vertical-align: middle
+			width: 1000px
+			position: relative
+			z-index: 2
