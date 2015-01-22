@@ -137,6 +137,6 @@ $(function(){
     MainPageUI.init();
 });
 
-$(window).on('resize', function(){
+$(window).on('resize.MainPageUI', function(){
     MainPageUI.resize();
 });

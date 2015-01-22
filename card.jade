@@ -1,0 +1,56 @@
+doctype html
+html
+	include partials/head
+
+	body.page-biege
+		.overall
+			include partials/header
+			include partials/nav-main-popup
+
+			main.main.regular-page.product-details
+				.limiter
+					.grid-row
+						.col-12
+							.product-gallery
+								.image
+									a(href="#")
+										img(src="http://lorempixel.com/500/500/nightlife/?11123")
+
+								.frames
+									.slider-gallery
+										.frame
+											ul.slidee
+												li: a(href="#")
+													span.image
+														img(src="http://lorempixel.com/200/200/nightlife/?1")
+
+												li: a(href="#")
+													span.image
+														img(src="http://lorempixel.com/100/200/nightlife/?2")
+
+												li: a(href="#")
+													span.image
+														img(src="http://lorempixel.com/200/100/nightlife/?3")
+
+												li: a(href="#")
+													span.image
+														img(src="http://lorempixel.com/200/100/nightlife/?3")
+
+
+						.col-12
+							.product-info
+								include partials/breadcrumbs
+								h1.hero-title iPhone 6, 64 Gb
+
+								p Мелочи очень важны, и об этом в Apple прекрасно знают, во всех книгах про Стивена Джобса
+									|написано о его стремлении улучшить в продукте буквально все, довести до идеала каждую мелочь.
+									|И поэтому я придерусь к рычажку отключения звука. Когда звук включен, рычажок немножко болтается. Мелочь?
+									|Да. Но такого не было в iPhone 5/5S, проверял лично на нескольких устройствах,
+									|там рычажок как влитой и двигается только вверх или вниз. В iPhone 6, увы,
+									|все не так, в верхнем положении кнопка ощутимо гуляет. Не страшно. Но как там насчет мелочей?
+
+								.price 2 800 руб.
+
+			.push
+
+		include partials/footer
