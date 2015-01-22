@@ -64,9 +64,23 @@
 						width: $item-width
 						height: $item-height
 						border: none
+						position: relative
 
-						img
-							transition: .6s
+						&:after
+							content: ''
+							border: 1px solid #fff
+							width: $item-width - 2
+							height: $item-width - 2
+							position: absolute
+							top: 0
+							left: 0
+							display: block
+
+
+						&:hover
+							&:after
+								border-color: #ccc
+
 
 					.title
 						background: rgba(0, 0, 0, .8)
@@ -87,5 +101,7 @@
 						.title
 							color: #ccc
 
-						.image img
-							transform: scale(1.2)
+					&.active
+						.image
+							&:after
+								border-color: $color-red
