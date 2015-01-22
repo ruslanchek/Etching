@@ -16,12 +16,16 @@
 	font-size: 16px
 	transition: .15s
 	position: relative
+	box-sizing: border-box
 
 	&.narrow
 		padding: 0 1ex
 
 	&:disabled
 		opacity: .6
+
+	&.full
+		width: 100%
 
 	&.big
 		height: $height-big
@@ -96,3 +100,18 @@
 		&:active
 			color: #fff
 			background: $color + 25
+
+	&.black
+		$color: #2e2f34
+
+		background: $color
+		color: #fff
+
+		&:hover
+			color: #fff
+			background: $color + 20
+
+		&:active
+			color: #fff
+			background: $color + 25
+
