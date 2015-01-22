@@ -83,12 +83,28 @@
 			font-size: 28px
 
 .cart-full
+	.items
+		padding: 0
+
 	padding: 55px 0
 	line-height: 1.5em
 
 	.bottom
 		background: none
+		padding: 40px 0
 
 	.params-table
 		.col
-			background: #F5F5F5
+			background: $color-biege-bg
+
+	.recount
+		text-align: center
+
+		input
+			width: 55px
+			margin-bottom: 4px
+			display: inline-block
+
+		&.disabled
+			.button
+				display: none

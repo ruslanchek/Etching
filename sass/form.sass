@@ -18,14 +18,16 @@
 		height: 60px
 		border: 1px solid #E2E2E2
 		background: #fff
-		padding: 0
 		box-sizing: border-box
 		padding: 0 10px
 		transition: .1s
 		@extend .text-curly
 		font-size: 30px
 		text-align: center
-		
+
+		&:read-only
+			background-color: $color-biege-bg
+
 		&:hover	
 			border-color: #d0d0d0
 
@@ -58,3 +60,9 @@
 
 			&:last-of-type
 				float: right
+
+	&.small
+		input
+			height: 45px
+			font-size: 14px
+			font-family: $default-font-family

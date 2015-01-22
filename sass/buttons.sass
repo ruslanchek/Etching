@@ -17,6 +17,8 @@
 	transition: .15s
 	position: relative
 
+	&.narrow
+		padding: 0 1ex
 
 	&:disabled
 		opacity: .6
@@ -80,3 +82,17 @@
 		&:active
 			color: #fff
 			background: $color-red - 15
+
+	&.gray-dark
+		$color: #797979
+
+		background: $color
+		color: #fff
+
+		&:hover
+			color: #fff
+			background: $color + 20
+
+		&:active
+			color: #fff
+			background: $color + 25
