@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3623fc54-e557-483f-b471-b0b52757ee8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/commons.sass" afterPath="$PROJECT_DIR$/sass/commons.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css.map" afterPath="$PROJECT_DIR$/css/screen.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shop.iws" />
@@ -41,10 +40,10 @@
       <file leaf-file-name="commons.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/commons.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57583547" vertical-offset="288" max-vertical-offset="1455">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7043702" vertical-offset="258" max-vertical-offset="1440">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
               <folding>
-                <element signature="e#1272#2597#2" expanded="true" />
+                <element signature="e#1271#2596#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="heroku" target-branch="master" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
@@ -550,7 +549,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421942054800</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="w">
+      <created>1421942212209</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1421942212209</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1010,10 +1015,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/commons.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57583547" vertical-offset="288" max-vertical-offset="1455">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.7043702" vertical-offset="258" max-vertical-offset="1440">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding>
-            <element signature="e#1272#2597#2" expanded="true" />
+            <element signature="e#1271#2596#2" expanded="true" />
           </folding>
         </state>
       </provider>
